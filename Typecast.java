@@ -10,11 +10,15 @@ class Type
 	{
 		if(a>b)
 		{
-			System.out.println(a);
+			System.out.println(a+" is greater");
 		}
-		else
+		else if(a==b)
 		{
-			System.out.println(b);
+			System.out.println("Both numbers are equal");
+		}
+		else if(b>a)
+		{
+			System.out.println(b+" is greater");
 		}
 	}
 	public static void main(String args[])
